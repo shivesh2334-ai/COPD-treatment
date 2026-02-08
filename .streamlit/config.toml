@@ -1,0 +1,15 @@
+[theme]
+primaryColor = "#1f77b4"           # Blue for buttons and highlights
+backgroundColor = "#ffffff"         # White background
+secondaryBackgroundColor = "#f0f2f6"  # Light gray for sections
+textColor = "#262730"              # Dark gray text
+font = "sans serif"                # Clean, professional font
+
+[server]
+headless = true                    # Required for cloud deployment
+port = 8501                        # Default Streamlit port
+enableCORS = false                 # Cross-origin settings
+enableXsrfProtection = true        # Security protection
+
+[browser]
+gatherUsageStats = false
